@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <style>
+          button  {background-color: aquamarine;
+    
+            }
+           h1 {
+                color:rgb(243, 88, 223)
+            }
+
+
+            
+            button  { color: blue;
+              background-color: aqua;
+      
+              }
+              h1{
+                  color: chartreuse;
+              background-color: darkblue;
+              text-align: center;
+              }
+          
+        </style>
+    </head>
+    <body>
+        
+      </head>
+      <body>
+          <h1 id="q"> change html content</h1>
+          <button onclick="document.getElementById('q').innerHTML='Hello Javascript'">change me</button>
+          <button onclick="document.getElementById('q').innerHTML='Hello World'">change me1</button>
+          <button onclick="document.getElementById('q').innerHTML='Hello Universe'">change  me2</button><br><br>
+          <hr>
+      
+
+
+
+
+
+
+
+
+
+    
+        <button onclick="fun()" , style="margin: 20% auto;">click</button>
+        
+        <input id="a">
+       
+        <script>
+          function fun(){
+          var lift_floor=parseInt(document.getElementById("a").value)
+             var lift_floor=prompt("which floor you can go:");
+              if
+        (lift_floor>=0 && lift_floor<=1)
+    
+           {
+             window.alert(" you are going first floor");
+            }
+            
+        else if
+        (lift_floor>=1 && lift_floor<=2)
+    
+       { 
+        window.alert("you are going second floor");
+    }
+    else if
+     (lift_floor>=2 && lift_floor<=3)
+      {
+        window.alert("you are going third floor");
+    }
+      else if(lift_floor>=3 && lift_floor<=4)
+      { 
+        window.alert("you are fourth floor");
+    }
+      else{
+        window.alert("you are ground floor");
+      }
+          }
+          </script>
+<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function age()
+        {
+            if(document.getElementById("t1").value>=18)
+            {
+                window.alert(" you are eligible for vote");
+            }
+            else{
+                window.alert("you are not eligible for vote")
+            }
+
+        }
+
+    </script>
+
+    <h1>if else statement</h1>
+    <script>
+        var time=prompt("what's the time")
+        
+        if(time>=5 && time<=12 )
+       { window.alert("good morning");
+    }
+    else if(time>=13 && time<=15)
+    {
+    window.alert("Good afternoon");
+    }
+    else if(time>=16 && time<=21)
+    {window.alert("good evening")}
+    else{
+        window.alert("good day");
+    }
+
+    </script>
+
+
+<h3>enter the age:<input type="text" id="t1"></h3>
+<button onclick="age()">verify</button>
+
+
+
+
+
+
+          
+    
+</body>
+</html>
